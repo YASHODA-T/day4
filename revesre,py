@@ -1,0 +1,8 @@
+Num=int(input("enter the Integer value:"))
+Rem=0
+Reverse_count=0
+while(Num!=0):
+    Rem=Num%10
+    Reverse_count=Reverse_count*10+Rem
+    Num=Num//10
+print("Reverse Number:",Reverse_count)
